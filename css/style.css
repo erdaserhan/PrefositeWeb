@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: none;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.logo a {
+  color: white;
+}
+
+.navbar-sections {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar-sections a {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
+}
+
+.navbar-sections a:hover {
+  color: darkgrey;
+}
+
+.container, .container-expo, .foto-rapport, .container-rapport, .foto-interview, .container-interview, .foto-galerie, .foto-expo {
+  width: 100%;
+  height: 105vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  background-image: url(../image/tv.jpg);
+}
+
+.foto-rapport {
+  background-color: #284b63;
+}
+
+.foto-expo {
+  background-color: #335c67;
+}
+
+.foto-interview {
+  background-color: #ceb5b7;
+}
+
+.foto-galerie {
+  background-color: #d4afb9;
+}
+
+.container-interview {
+  background-color: red;
+}
+
+.francais1 {
+    background-color: #ceb5b7;
+    color: white;
+    padding: 5%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-left: 20%;
+    border-radius: 20px;
+    font-family: roboto;
+    width: 8000px;
+    font-size: 20px; 
+    border: 2px solid white;
+}
+
+.francais1 h1 {
+  text-align: center;
+}
+
+.francais1 p {
+  color: white;
+}
+
+.francais1 p::first-letter {
+  initial-letter: 2;
+  margin-right: 4px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-galerie {
+  width: 70%;
+  margin: 70px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 30px;
+}
+
+.img-galerie img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.img-galerie img:hover {
+  transform: scale(0.9) rotate(-2deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+}
+
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.full-img img {
+  width: 90%;
+  max-width: 500px;
+}
+
+.full-img span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor:  pointer;
+}
+
+.conclusion {
+  background-color: #ceb5b7;
+  padding: 5%;
+  margin-right: 20%;
+  margin-top: 1%;
+  margin-left: 20%;
+  border-radius: 20px;
+  font-family: roboto;
+  width: 800px;
+  font-size: 20px; 
+}
+
+.conclusion h1 {
+  text-align: center;
+  color: white;
+}
+
+.conclusion p {
+  color: white;
+}
+
+
+div + div {
+  clear: both;
+}
+
+p {
+  line-height: 1.4em;
+  color: #ffffff;
+}
+
+.faq-title {
+  font-size: 2em;
+  margin: 0.4em 0;
+}
+
+div.seperator {
+  width: 8em;
+  background-color: #ffffff;
+  height: 0.17em;
+  margin-left: 0.5em;
+}
+
+.faq-list > div {
+  border-bottom: 0.07em solid #ededed;
+  padding: 1.5em 0em;
+} 
+
+.faq-list > div:last-child {
+  border: unset;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+summary:hover {
+  color: #656565;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out  ;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 55px}
+}
+
+details[open] summary {
+  color: #ffffff;
+}
+
+details[open] p {
+  border-left: 2px solid #ffffff;
+  margin-left: 55px;
+  padding-left: 25px;
+  opacity: 100;
+  transition: all 3s ease;
+}
+
+details[open] summary:after {
+  content: "-";
+  font-size: 3.2em;
+  margin: -33px 0.35em 0 0;
+  font-weight: 200;
+}
+
+.faq-body {
+  width: 70em;
+  margin: 4em auto;
+  box-shadow: 0px 0px 5px #0e0d0d;
+  border-radius: 2em;
+  padding: 5em;
+  background-color: #335c67;
+}
+
+.faq-list {
+  width: 55em;
+  margin: 1em auto;
+  padding: 2em 0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  background: transparent;
+  border-radius: 0.3em;
+  content: "+";
+  color: #ffffff;
+  float: left;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: -0.3em 0.65em 0 0;
+  padding: 0;
+  text-align: center;
+  width: 25px;
+}

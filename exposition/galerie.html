@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Galerie</title>
+</head>
+<body class="foto-galerie">
+  <div class="navbar">
+    <nav class="navbar-sections">
+        <a href="../index.html">Accueil</a>
+        <a href="../entreprise/interview.html">Interview</a>
+        <a href="../entreprise/rapport.html">Rapport d'entreprise</a>
+        <a href="expo.html">Exposition</a>
+        <a href="galerie.html">Photos</a>
+    </nav>
+  </div>
+  <div class="full-img" id="fullImgBox">
+        <img src="../image/eye.jpg" id="fullImg">  
+        <span onclick="closefullImg()">X</span>
+  </div>
+  <div class="img-galerie">
+        <img src="../image/casette.jpg" onclick="openfullImg(this.src)">
+        <img src="../image/1.jpg" onclick="openfullImg(this.src)">
+        <img src="../image/casette.jpg" onclick="openfullImg(this.src)">
+        <img src="../image/eye.jpg" onclick="openfullImg(this.src)">
+        <img src="../image/1.jpg" onclick="openfullImg(this.src)">
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+        <img src="../image/2.jpg" onclick="openfullImg(this.src)"> 
+  </div>
+  <script>
+        var fullImgBox = document.getElementById('fullImgBox'); 
+        var fullImg = document.getElementById('fullImg'); 
+
+        function openfullImg(pic){
+            fullImgBox.style.display = 'flex';
+            fullImg.src = pic;
+        }
+
+        function closefullImg(){
+            fullImgBox.style.display = 'none';
+        }
+      </script>  
+    </body>
+</html>
