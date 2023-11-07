@@ -71,17 +71,17 @@
 }
 
 .francais1 {
-    background-color: #ceb5b7;
-    color: white;
-    padding: 5%;
-    margin-right: 20%;
-    margin-top: 5px;
-    margin-left: 20%;
-    border-radius: 20px;
-    font-family: roboto;
-    width: 8000px;
-    font-size: 20px; 
-    border: 2px solid white;
+  background-color: #ceb5b7;
+  color: white;
+  padding: 5%;
+  margin-right: 20%;
+  margin-top: 5px;
+  margin-left: 20%;
+  border-radius: 20px;
+  font-family: roboto;
+  width: 8000px;
+  font-size: 20px; 
+  border: 2px solid white;
 }
 
 .francais1 h1 {
@@ -101,6 +101,8 @@
   display: flex;
   flex-direction: row;
 }
+
+/* Img Gallerie*/
 
 .img-galerie {
   width: 70%;
@@ -149,6 +151,8 @@
   cursor:  pointer;
 }
 
+/*Conclusion*/
+
 .conclusion {
   background-color: #ceb5b7;
   padding: 5%;
@@ -170,6 +174,7 @@
   color: white;
 }
 
+/* Interview Section */
 
 div + div {
   clear: both;
@@ -180,7 +185,7 @@ p {
   color: #ffffff;
 }
 
-.faq-title {
+.interview-title {
   font-size: 2em;
   margin: 0.4em 0;
 }
@@ -192,12 +197,12 @@ div.seperator {
   margin-left: 0.5em;
 }
 
-.faq-list > div {
+.interview-list > div {
   border-bottom: 0.07em solid #ededed;
   padding: 1.5em 0em;
 } 
 
-.faq-list > div:last-child {
+.interview-list > div:last-child {
   border: unset;
 }
 
@@ -253,7 +258,7 @@ details[open] summary:after {
   font-weight: 200;
 }
 
-.faq-body {
+.interview-body {
   width: 70em;
   margin: 4em auto;
   box-shadow: 0px 0px 5px #0e0d0d;
@@ -262,7 +267,7 @@ details[open] summary:after {
   background-color: #335c67;
 }
 
-.faq-list {
+.interview-list {
   width: 55em;
   margin: 1em auto;
   padding: 2em 0;
