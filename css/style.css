@@ -1,9 +1,11 @@
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: none;
+  font-family: ;
 }
 
 .navbar {
@@ -17,7 +19,7 @@
   margin-left: 20px;
 }
 
-.logo a {
+.logo h4 {
   color: white;
 }
 
@@ -39,7 +41,7 @@
   color: darkgrey;
 }
 
-.container, .container-expo, .foto-rapport, .container-rapport, .foto-interview, .container-interview, .foto-galerie, .foto-expo {
+.container, .foto-rapport, .container-rapport, .foto-interview, .foto-galerie, .foto-expo {
   width: 100%;
   height: 105vh;
   background-position: center;
@@ -78,7 +80,7 @@
   margin-top: 5px;
   margin-left: 20%;
   border-radius: 20px;
-  font-family: roboto;
+  font-family: agbalumo;
   width: 8000px;
   font-size: 20px; 
   border: 2px solid white;
@@ -86,10 +88,12 @@
 
 .francais1 h1 {
   text-align: center;
+  font-family:;
 }
 
-.francais1 p {
+.francais p {
   color: white;
+  font-family: ;
 }
 
 .francais1 p::first-letter {
@@ -115,7 +119,7 @@
 .img-galerie img {
   width: 100%;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .img-galerie img:hover {
@@ -160,7 +164,6 @@
   margin-top: 1%;
   margin-left: 20%;
   border-radius: 20px;
-  font-family: roboto;
   width: 800px;
   font-size: 20px; 
 }
@@ -172,6 +175,8 @@
 
 .conclusion p {
   color: white;
+  font-family: ;
+  font-size: large;
 }
 
 /* Interview Section */
