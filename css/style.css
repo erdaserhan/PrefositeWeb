@@ -1,3 +1,7 @@
+@font-face {
+  font-family: gothic;
+  src: url(../font/gothic.ttf);
+}
 
 * {
   margin: 0;
@@ -80,7 +84,7 @@
   margin-top: 5px;
   margin-left: 20%;
   border-radius: 20px;
-  font-family: agbalumo;
+  font-family: gothic;
   width: 8000px;
   font-size: 20px; 
   border: 2px solid white;
@@ -93,7 +97,7 @@
 
 .francais p {
   color: white;
-  font-family: ;
+  font-family: gothic;
 }
 
 .francais1 p::first-letter {
@@ -175,8 +179,8 @@
 
 .conclusion p {
   color: white;
-  font-family: ;
-  font-size: large;
+  font-family: gothic;
+  font-size: 2rem;
 }
 
 /* Interview Section */
