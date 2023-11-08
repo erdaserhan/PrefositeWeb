@@ -33,6 +33,10 @@
   font-family: gothic;
 }
 
+.logo h4 a {
+  color: white;
+}
+
 .navbar-sections {
   flex: 1;
   text-align: right;
@@ -106,6 +110,11 @@
 .francais1 p::first-letter {
   initial-letter: 2;
   margin-right: 4px;
+  color: red;
+}
+
+#nam {
+  color: red;
 }
 
 .main {
@@ -190,6 +199,7 @@
 .conclusion p::first-letter {
   initial-letter: 2;
   margin-right: 4px;
+  color: red;
 }
 
 /* Interview Section */
