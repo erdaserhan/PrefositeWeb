@@ -187,6 +187,11 @@
   font-family: gothic;
 }
 
+.conclusion p::first-letter {
+  initial-letter: 2;
+  margin-right: 4px;
+}
+
 /* Interview Section */
 
 div + div {
