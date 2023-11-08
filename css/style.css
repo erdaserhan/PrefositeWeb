@@ -246,7 +246,7 @@ summary {
 }
 
 summary:hover {
-  color: #656565;
+  color: red;
 }
 
 details[open] summary ~ * {
