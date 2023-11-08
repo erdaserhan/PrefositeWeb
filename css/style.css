@@ -3,13 +3,18 @@
   src: url(../font/gothic.ttf);
 }
 
+@font-face {
+  font-family: dominik;
+  src: url(../font/dominik.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: none;
-  font-family: ;
+  font-family: gothic;
 }
 
 .navbar {
@@ -25,6 +30,7 @@
 
 .logo h4 {
   color: white;
+  font-family: gothic;
 }
 
 .navbar-sections {
@@ -42,7 +48,7 @@
 }
 
 .navbar-sections a:hover {
-  color: darkgrey;
+  color: red;
 }
 
 .container, .foto-rapport, .container-rapport, .foto-interview, .foto-galerie, .foto-expo {
@@ -57,7 +63,7 @@
 }
 
 .foto-rapport {
-  background-color: #284b63;
+  background-color: #335c67;
 }
 
 .foto-expo {
@@ -65,11 +71,11 @@
 }
 
 .foto-interview {
-  background-color: #ceb5b7;
+  background-color: #335c67;
 }
 
 .foto-galerie {
-  background-color: #d4afb9;
+  background-color: #335c67;
 }
 
 .container-interview {
@@ -77,25 +83,22 @@
 }
 
 .francais1 {
-  background-color: #ceb5b7;
+  background-color: #001219;
   color: white;
   padding: 5%;
   margin-right: 20%;
   margin-top: 5px;
   margin-left: 20%;
   border-radius: 20px;
-  font-family: gothic;
   width: 8000px;
-  font-size: 20px; 
-  border: 2px solid white;
+  font-size: 20px;
 }
 
 .francais1 h1 {
   text-align: center;
-  font-family:;
 }
 
-.francais p {
+.francais1 p {
   color: white;
   font-family: gothic;
 }
@@ -117,7 +120,7 @@
   margin: 70px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 60px;
 }
 
 .img-galerie img {
@@ -159,17 +162,19 @@
   cursor:  pointer;
 }
 
+
 /*Conclusion*/
 
-.conclusion {
-  background-color: #ceb5b7;
+.conclusion { 
+  background-color: #001219;
+  color: white;
   padding: 5%;
   margin-right: 20%;
   margin-top: 1%;
   margin-left: 20%;
   border-radius: 20px;
   width: 800px;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .conclusion h1 {
@@ -180,7 +185,6 @@
 .conclusion p {
   color: white;
   font-family: gothic;
-  font-size: 1.5rem;
 }
 
 /* Interview Section */
@@ -217,6 +221,7 @@ div.seperator {
 
 details > summary {
   list-style: none;
+  color: white;
 }
 details > summary::-webkit-details-marker {
   display: none;
@@ -270,20 +275,25 @@ details[open] summary:after {
 .interview-body {
   width: 70em;
   margin: 4em auto;
-  box-shadow: 0px 0px 5px #0e0d0d;
+  box-shadow: 0px 0px 1px white;
   border-radius: 2em;
   padding: 5em;
-  background-color: #335c67;
+  background-color: #001219;
 }
 
 .interview-list {
   width: 55em;
   margin: 1em auto;
   padding: 2em 0;
+  font-family: gothic;
 }
 
 summary::-webkit-details-marker {
   display: none;
+}
+
+.interview-header h3 {
+  color: white;
 }
 
 summary:after {
