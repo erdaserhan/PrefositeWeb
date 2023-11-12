@@ -206,6 +206,28 @@
   color: red;
 }
 
+
+.organigramme { 
+  background-color: #001219;
+  margin-left: 13%;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 20px;
+  padding: 40px;
+}
+
+.organigramme p a {
+  text-align: center;
+  color: white;
+  font-family: gothic;
+  font-size: 30px;
+}
+
+.organigramme p a:hover {
+  color: red;
+}
+
+
 /* Interview Section */
 
 div + div {
