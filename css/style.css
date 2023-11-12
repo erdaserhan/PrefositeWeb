@@ -37,6 +37,10 @@
   color: white;
 }
 
+.logo h4 a:hover {
+  color: red;
+}
+
 .navbar-sections {
   flex: 1;
   text-align: right;
@@ -139,7 +143,7 @@
 }
 
 .img-galerie img:hover {
-  transform: scale(0.9) rotate(-2deg);
+  transform: scale(0.9) rotate(-1deg);
   border-radius: 20px;
   box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
 }
