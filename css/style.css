@@ -175,7 +175,6 @@
   cursor:  pointer;
 }
 
-
 /*Conclusion*/
 
 .conclusion { 
@@ -206,18 +205,17 @@
   color: red;
 }
 
-
 .organigramme { 
   background-color: #001219;
-  margin-left: 13%;
+  margin: 4em auto;;
   border-radius: 20px;
   width: 300px;
   font-size: 20px;
   padding: 40px;
+  text-align: center;
 }
 
 .organigramme p a {
-  text-align: center;
   color: white;
   font-family: gothic;
   font-size: 30px;
