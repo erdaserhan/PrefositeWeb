@@ -225,6 +225,25 @@
   color: red;
 }
 
+.presEntreprise {
+  background-color: #001219;
+  margin: 4em auto;;
+  border-radius: 20px;
+  width: 900px;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.presEntreprise p a {
+  color: white;
+  font-family: gothic;
+  font-size: 30px;
+}
+
+.presEntreprise p a:hover {
+  color: red;
+}
 
 /* Interview Section */
 
